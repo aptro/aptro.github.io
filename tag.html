@@ -32,12 +32,12 @@ permalink: /tags/
 	 {% for post in site.posts %}
 		 {% if post.tags contains tag %}
 		 <li>
-		 <h5>
+		 <h4>
 		 <a href="{{ post.url | prepend: site.baseurl}}">
 		 {{ post.title }}
 		 </a>
 		 <small class="post-meta">{{ post.date | date_to_string }}</small>
-		 </h5>
+		 </h4>
 		 </li>
 		 {% endif %}
 	 {% endfor %}
