@@ -17,6 +17,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aptro.github.io" # the base hostname & protocol for your site
 twitter_username: akashkupatro
 github_username:  aptro
+linkedin_username: aptro
 
 # Build settings
 markdown: kramdown
