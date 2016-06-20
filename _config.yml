@@ -10,7 +10,7 @@ title: Yet to Get
 email: akashkupatro@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This blog is all about related articles from various sources in the domain of 
-  programming Languages, software design, server architectures and
+  programming Languages, software design, server architectures, cryptography and
   tools that I came across and find useful.
   
 baseurl: "" # the subpath of your site, e.g. /blog
