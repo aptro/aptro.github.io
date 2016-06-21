@@ -3,7 +3,7 @@ layout: post
 title:  "The Infamous Python GIL"
 date:   2016-06-20 00:00:00 +0530
 categories: Programming Language
-tags: [python, GIL, CPython]
+tags: [Python, GIL, CPython]
 ---
 
 When I started programming in python, I used to came across arguments regrading the Gil implementation in CPython which restricts the power of multicore machines. After searching and reading a lot of articles about the GIL and it's implementation I found a great talk by David Beazley which provides a deep down dissection of GIL. You can watch the Video here.
