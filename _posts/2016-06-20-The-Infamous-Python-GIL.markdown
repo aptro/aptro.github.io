@@ -18,6 +18,7 @@ You can find more about it at the python [offical wiki](https://wiki.python.org/
 After searching and reading a lot of articles about the GIL and it's implementation I found a great talk by David Beazley which provides a deep down dissection of GIL. 
 You can watch the Video here.
 
+**Inside The Python GIL By David Beazley**
 <br>
 <iframe width="480" height="360" src="https://www.youtube.com/embed/ph374fJqFPE" frameborder="0" allowfullscreen></iframe>
 <br>
