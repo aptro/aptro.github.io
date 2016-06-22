@@ -18,10 +18,62 @@ Jupyter supports multiple programming languages.
 For more information [click here](http://jupyter.org/)
 
 
+
 Jupyter Installation
 
 
-I would suggest installing from continuum anaconda project. It provides a seemless package management and virtual env setup tools. You can find the instruction [here](https://www.continuum.io/downloads)
+I would suggest installing from continuum anaconda project. It provides a seemless package management and virtual env setup tool. And also provides a rich set of libraries bundled with the setup. You can find the instruction [here](https://www.continuum.io/downloads)
+
+
+
+Setting Up a Notebook Server
+
+
+You can start the notebook server as: 
+
+{% highlight bash linenos %}
+
+jupyter notebook
+#for all the args
+jupyter notebook --help-all
+{% endhighlight %}
+
+The Notebook is a tornado Server which serves the Terminal and kernal UI.
+
+
+Demonizing the Notebook Server For Ubuntu
+
+{% highlight bash linenos %}
+touch /etc/init/yourupstartjobname.conf
+#content for your Upstart file
+description "Service for jupyter notebook"
+author      "You"
+
+start on filesystem or runlevel [2345]
+stop on shutdown
+respawn
+
+script
+    echo $$ > /var/run/jupyter.pid
+    exec /pathto/anaconda3/bin/jupyter notebook --no-browser 
+    --NotebookApp.allow_origin='*' --notebook-dir='/pathtojupyter_workspace'
+
+end script
+
+pre-stop script
+    rm /var/run/jupyter.pid
+end script
+{% endhighlight %}
+
+
+
+ 
+
+
+
+
+
+
 
 
 
