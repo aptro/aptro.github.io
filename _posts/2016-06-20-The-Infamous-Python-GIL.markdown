@@ -22,11 +22,10 @@ You can watch the Video here.
 <br>
 <iframe width="480" height="360" src="https://www.youtube.com/embed/ph374fJqFPE" frameborder="0" allowfullscreen></iframe>
 <br>
-
-You can find the slides from Beazley's Personal blog and much more about python and [Gil](www.dabeaz.com/GIL/).
-<br>
-
 [Here's the slide](http://www.dabeaz.com/python/GIL.pdf)
+
+You can find the slides from Beazley's Personal blog and much more about python and [Gil](http://www.dabeaz.com/GIL/).
+
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
