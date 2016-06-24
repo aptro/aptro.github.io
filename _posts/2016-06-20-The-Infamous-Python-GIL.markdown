@@ -38,7 +38,7 @@ Lot of people tried to remove the GIL, but unfortunately performance degraded by
 
 In 2016 Larry Hastings proposed a model for removing the GIL, And he calls it **Gilectomy**
 
-"Here's the Pycon Video"
+**Here's the Pycon Video**
 <br>
 <iframe width="480" height="360" src="https://www.youtube.com/embed/P3AyI_u66Bw" frameborder="0" allowfullscreen></iframe>
   
