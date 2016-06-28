@@ -17,6 +17,7 @@ For developing this kind of highly personalized, localized context of user, a lo
 And when privacy is concerned I am more inclined towards Apple. Craig Federighi during his keynote at WWDC spoke about Differential Privacy for getting SIRI more Intelligent and understanding more about how people ask and interact with the virtual Assistance.
 
 **What is Differential Privacy**
+
 As Simple as Collecting user data while maintaining anonymity of user's identity.
 
 For more technical on this topic you can start with [this article](http://blog.cryptographyengineering.com/2016/06/what-is-differential-privacy.html)
