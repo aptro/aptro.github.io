@@ -30,7 +30,25 @@ Data dominates. If you've chosen the right data structures and organized things 
 
 
 
-Rob Pike is the cocreator of GOlang and creator of Plan 9 and UTF-8.
+Rob Pike is the cocreator of [GOlang](https://golang.org/) and creator of Plan 9 OS and UTF-8.
 
 
 [Source](http://users.ece.utexas.edu/~adnan/pike.html)
+
+
+**Other Threads About the topic**
+
+[Reddit](https://www.reddit.com/r/programming/comments/29yj61/rob_pikes_5_rules_of_programming/)
+[Y Combinator](https://news.ycombinator.com/item?id=7994102)
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42894049-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
