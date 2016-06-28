@@ -6,7 +6,7 @@ categories: Programming Language
 tags: [Golang, Rob Pike, UTF-8, Plan9]
 ---
 
-Rob Pike is the cocreator of [GOlang](https://golang.org/) and creator of Plan 9 OS and UTF-8.
+Rob Pike is the cocreator of [Golang](https://golang.org/) and creator of Plan 9 OS and UTF-8.
 
 
 **Rob Pike's 5 Rules of Programming**
