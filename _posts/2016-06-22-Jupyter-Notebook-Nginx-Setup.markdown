@@ -8,7 +8,7 @@ tags: [Jupyter, Python, Nginx, Websocket, DataScience, Upstart, Ubuntu]
 
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.
 
-Jupyter project had a long history of development, It started with the Ipython project which provides a rich set of tools for computing and visualization with Python at it's core. In the recent years the Ipython project broke into small components and the Kernal is the core of Jupyter.
+Jupyter project had a long history of development, It started with the Ipython project which provides a rich set of tools for computing and visualization with Python at it's core. In the recent years the Ipython project broke into small components and the Kernel is the core of Jupyter.
 
 Jupyter supports multiple programming languages.
 
@@ -35,7 +35,7 @@ jupyter notebook
 jupyter notebook --help-all
 {% endhighlight %}
 
-The Notebook is a Python tornado Server which serves the Terminal and kernal UI.
+The Notebook is a Python tornado Server which serves the Terminal and kernel UI.
 
 
 **Demonizing the Notebook Server For Ubuntu**
@@ -68,7 +68,7 @@ end script
 
 As the Notebook server runs On Tornado which uses the websockets for some part of the Client Interaction. Standard nginx proxy pass uses the Http protocal. So we need to add some configuration to work. 
 
-For Interacting with the Terminal and And Kernal it uses the WSS(websocket protocal). You can find more about this [here](https://github.com/jupyter/notebook/issues/625#issue-112465411)
+For Interacting with the Terminal and And Kernel it uses the WSS(websocket protocal). You can find more about this [here](https://github.com/jupyter/notebook/issues/625#issue-112465411)
 
 **Heres My Nginx configuation.**
 
