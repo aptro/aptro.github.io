@@ -4,6 +4,7 @@ title:  "Rob Pike's 5 Rules of Programming"
 date:   2016-06-28 06:30:00 +0530
 categories: Programming Language
 tags: [Golang, Rob Pike, UTF-8, Plan9]
+auther: Akash Patro
 ---
 
 Rob Pike is the cocreator of [Golang](https://golang.org/) and creator of Plan 9 OS and UTF-8.
