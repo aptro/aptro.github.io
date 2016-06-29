@@ -4,6 +4,7 @@ title:  "The Infamous Python GIL"
 date:   2016-06-20 00:00:00 +0530
 categories: Programming Language
 tags: [Python, GIL, CPython]
+author: Akash Patro
 ---
 
 When I started programming in python, I used to came across about the discussion regrading the Gil implementation in CPython which restricts the power of multicore machines. 

@@ -4,7 +4,7 @@ title:  "Jupyter Notebook and Nginx Setup"
 date:   2016-06-22 00:00:00 +0530
 categories: Server Architecture
 tags: [Jupyter, Python, Nginx, Websocket, DataScience, Upstart, Ubuntu]
-auther: Akash Patro
+author: Akash Patro
 ---
 
 The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.
