@@ -120,7 +120,7 @@ location ~ /terminals/ {
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-42894049-2', 'auto');
-  ga('send', 'pageview');
+  ga('send', 'pageview', location.pathname);
 
 </script>
 
